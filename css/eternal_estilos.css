@@ -88,7 +88,6 @@ html, body {
 
 .cajacompra > p{
     text-align: center;
-    width: 35.5rem;
 } 
 
 header > div{
@@ -200,6 +199,36 @@ nav a:focus {
     display: flex;
     justify-content: start;
 }
+
+
+
+.botons{
+    cursor: pointer;
+}
+#menu{
+    display: none;
+}
+#barra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: none;
+    width: 100rem;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+#menu:checked ~.menu{
+    display: flex;
+    flex-direction: row;
+    height: 13rem;
+}
+
+
 .cajacompra{
     width: 40rem;
     height: 60rem;
@@ -315,7 +344,10 @@ footer{
     .centrar{
         padding-top: 0rem;
     }
-
+    .menu{
+        width: 90rem;
+        height: 25rem;
+    }
 }
 @media (max-width: 768px){
     header div{
@@ -323,13 +355,10 @@ footer{
         background-position: right;
         
     }
-
-    header >div >h1{
+    div h1{
         font-size: 15rem;
         text-align: center;
         left: 0rem;
-        
-        
     }
     .img2{
         display: none;
@@ -361,19 +390,17 @@ footer{
         width: 30rem;
         height: 20rem;
     }
+
+
+    #menu:checked ~.menu{
+        flex-direction: column;
+        height: 40rem;
+    }
+    .menu li a{
+        text-align: center;
+    }
 }
 @media (max-width:767px){
-
-    header div {
-        width: 100%;
-        background-image: url(../img/titulo.jpg);
-        background-position: right;
-    }
-    header div h1{
-        font-size: 13rem;
-        left: 0rem;
-        
-    }
     .parrafo{
         margin: 0rem;
         width: 100%;
@@ -385,10 +412,6 @@ footer{
     .historia{
         height: 110rem;
     }
-    .historia{
-        height: 150rem;
-    }
-
 }
 @media (max-width:425px){
     header >div{
@@ -397,11 +420,11 @@ footer{
         background-position: center;
     }
     header div h1{
-        font-size: 11rem;
-        left: 0rem;
+        font-size: 12rem;
+        left: -1.7rem;
     }
     nav{
-        height: 30rem;
+
         flex-direction: column;
         align-items: center;
 
@@ -418,7 +441,7 @@ footer{
         height: 120rem;
     }
     .historia{
-        height: 180rem;
+        height: 160rem;
     }
 }
 @media (max-width: 320px){
@@ -444,7 +467,6 @@ footer{
         top: 0rem;
     }
     nav{
-        height: 30rem;
         align-items: center;
         flex-direction: column;
     }
@@ -499,6 +521,7 @@ footer{
     #phistoria{
     height: 86rem;
     }
+
 
 
 }
