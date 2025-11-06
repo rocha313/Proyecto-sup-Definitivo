@@ -441,7 +441,7 @@ footer{
         height: 120rem;
     }
     .historia{
-        height: 160rem;
+        height: 180rem;
     }
 }
 @media (max-width: 320px){
@@ -521,6 +521,7 @@ footer{
     #phistoria{
     height: 86rem;
     }
+
 
 
 
