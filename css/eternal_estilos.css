@@ -1,0 +1,504 @@
+:root{
+    --rojo: #61060a;
+    --blanco : #ffffff;
+    --gris : #242d2b;
+    --negro:#000;
+    --xbox :#0e7a0d;
+    --play:#193285;
+    --switch:#e60012;
+    --steam:#007ead;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+#logo, #compraoculto{
+    display: none;
+    width: 0rem;
+    height: 0rem;
+}
+
+.material-symbols-outlined {
+    font-size: 8rem;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+*{
+    padding: 0rem;
+    margin: 0rem;
+    font-family: "Momo Trust Display", sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    color: var(--blanco);
+    box-sizing: border-box;
+    
+}
+.textos{
+    font-family: 'DOOM 2016 Left', sans-serif;
+    letter-spacing: 0.8rem;
+    text-shadow:
+        -0.3rem 0 var(--negro),
+        0.3rem 0 var(--negro),
+        0 -0.3rem var(--negro),
+        0 0.3rem var(--negro);
+}
+.textos2{
+    font-size: 7rem;
+    margin-left: 2rem;
+    padding-top: 4rem;
+}
+.img{
+    width: 30rem;
+    height: 30rem;
+}
+.img2{
+    width: 50rem;
+    height: 30rem;
+    padding-top: 10rem;
+}
+.block{
+    display: flex;
+    justify-content: space-around;
+}
+#logos{
+    display: flex;
+    flex-direction: column;
+}
+.acerca{
+    width: 100%;
+    height: 90rem;
+    background-image: url(../img/infierno.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: var(--negro); 
+}
+
+.cajacompra > p{
+    text-align: center;
+    width: 35.5rem;
+} 
+
+header > div{
+    width: 100%;
+    height: 78.7rem;
+    background-image: url(../img/titulo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+}
+header > div > h1{
+    position: relative;
+    font-size: 20rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--gris);
+    border-top: 0.2rem solid var(--negro);
+    border-bottom:0.2rem solid var(--negro);
+}
+nav a,.botonn{
+    margin-top: 5.4rem;
+    margin-bottom: 5.4rem;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #a52a2a84;
+}
+nav a:focus {
+    background-color: #b30000;
+
+}
+
+
+.parrafo{
+    padding-bottom: 30rem;
+    width: 80rem;
+    margin-left: 2rem;
+}
+
+.historia{
+    width: 100%;
+    height: 100rem;
+    background-image: url(../img/tierra.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.historia article{
+    text-align: center;
+}
+.premios{
+    width: 100%;
+    height: 90rem;
+    background-image: url(../img/premios.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.premios h2{
+    padding-bottom: 10rem;
+}
+.compra{
+    width: 100%;
+    height: 75rem;
+    background-image: url(../img/infierno.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15rem;
+    box-sizing: border-box;
+    
+}
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+.pictures a{
+    text-decoration: none;
+}
+.centro{
+    box-sizing: border-box;
+    background-color: var(--gris);
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.centro, nav a{
+    transition: transform 0.4s ease;
+
+}
+.centro:hover , nav a:hover{
+    transform: scale(1.13);
+}
+.centrar{
+    padding-top: 13rem;
+}
+.cajabotones{
+    width: 20rem;
+    height: 6.2rem;
+    display: flex;
+    justify-content: start;
+}
+.cajacompra{
+    width: 40rem;
+    height: 60rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    background-color: var(--negro);
+    align-items: center;
+    box-sizing: border-box;
+}
+.parrafobotones{
+    font-size: 2rem;
+    font-family: Orbitron, Open Sans, Noto Sans Japanese, Trade Gothic Bold Condensed No20, sans-serif;
+    padding-top:1.7rem ;
+    text-align: start;
+    
+}
+.boton{
+    width: 10rem;
+    height: 4rem;
+    padding-top: 1rem ;
+}
+.xbox{
+    background-color:var(--xbox) ;
+    font-size: 0.5rem;
+}
+#xbox :hover{
+    background-color: #0b5a0a;
+}
+
+.play{
+    background-color: var(--play);
+    font-size: 0.5rem;
+}
+#play :hover{
+    background-color: #102052;
+}
+.switch{
+    background-color: var(--switch);
+    font-size: 0.5rem;
+}
+#switch :hover{
+    background-color: #790711;
+}
+.steam{
+    background-color: var(--steam);
+    font-size: 0.5rem;
+}
+#steam :hover{
+    background-color: #033344;
+}
+.cajacompra a{
+    text-decoration: none;
+}
+div > span{
+        position: absolute;
+        top: 0rem;
+}
+
+#phistoria{
+    height: 78rem;
+    text-align: center;
+}
+.meta{
+    display: flex;
+    justify-content: center;
+    width: 4rem;
+    background-color: #187e36;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+footer{
+    width: 100%;
+    height: 15rem;
+    background-color: var(--negro);
+}
+
+#aparrafo:target,#phistoria:target {
+    background-color: #ff00004d;
+    border: 0.3rem solid red;
+}
+
+@media (max-width: 1024px) {
+    header div h1{
+        left: 9rem;
+    }
+    .pictures{
+        height: 100rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .centro{
+        width: 37rem;
+        height: 24rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .centro img{
+        height: 20rem;
+    }
+    .premios{
+        height: 120rem;
+        flex-direction: column;
+        
+    }
+    .premios h2{
+        padding-bottom: 0rem;
+    }
+    .centrar{
+        padding-top: 0rem;
+    }
+
+}
+@media (max-width: 768px){
+    header div{
+        width: 76.8rem;
+        background-position: right;
+        
+    }
+
+    header >div >h1{
+        font-size: 15rem;
+        text-align: center;
+        left: 0rem;
+        
+        
+    }
+    .img2{
+        display: none;
+    }
+    .historia{
+        height: 100rem;
+    }
+    .parrafo{
+        padding: 0rem;
+        width: 70rem;
+    }
+    .compra{
+        padding-top: 2rem;
+        height: 100rem;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .cajacompra{
+        height: 80rem;
+        width: 50rem;
+        
+    }
+    .parrafobotones{
+        text-align: center;
+    }
+    #compraoculto{
+        display: block;
+        width: 30rem;
+        height: 20rem;
+    }
+}
+@media (max-width:767px){
+
+    header div {
+        width: 100%;
+        background-image: url(../img/titulo.jpg);
+        background-position: right;
+    }
+    header div h1{
+        font-size: 13rem;
+        left: 0rem;
+        
+    }
+    .parrafo{
+        margin: 0rem;
+        width: 100%;
+    }
+    .textos2{
+        margin: 0rem;
+        width: 100%;
+    }
+    .historia{
+        height: 110rem;
+    }
+    .historia{
+        height: 150rem;
+    }
+
+}
+@media (max-width:425px){
+    header >div{
+        width: 42.5rem;
+        background-image: url(../img/titulo\ -\ copia.jpg);
+        background-position: center;
+    }
+    header div h1{
+        font-size: 11rem;
+        left: 0rem;
+    }
+    nav{
+        height: 30rem;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    nav a{
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        text-align: center;
+        width: 10rem;
+    }
+    .acerca{
+        height: 120rem;
+    }
+    .historia{
+        height: 180rem;
+    }
+}
+@media (max-width: 320px){
+    header div{
+        width: 32rem;
+        background-image: url(../img/titulo\ -\ copia.jpg);
+        background-position: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: end;
+        
+        
+    }
+    
+    header div h1{
+        font-size: 11rem;
+        left: 0rem;
+        position: relative;
+        text-align: center;
+
+    }
+    header div span {
+        top: 0rem;
+    }
+    nav{
+        height: 30rem;
+        align-items: center;
+        flex-direction: column;
+    }
+    nav a{
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        text-align: center;
+        width: 10rem;
+    }
+    .acerca{
+        height: 80rem;
+        text-align: center;
+    }
+    .historia{
+        height: 115rem;
+    }
+    .textos2{
+        font-size: 6rem;
+        margin-left: 0rem;
+        padding-top: 2rem;
+    }
+    .parrafo{
+        padding: 0rem;
+        margin: 0rem;
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .parrafobotones{
+        font-size: 1.5rem;
+        padding-top:1rem ;
+        text-align: center;
+        width: 28rem;
+    }
+    #compraoculto{
+        width: 19rem;
+        height: 14rem;
+    }
+    #logo{
+        display: block;
+        width: 25rem;
+        height: 18rem;
+    }
+    .parrafo a{
+        width: 100%;
+    }
+    .centro{
+        width: 27rem;
+    }
+    #phistoria{
+    height: 86rem;
+    }
+
+
+}

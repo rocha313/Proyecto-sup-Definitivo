@@ -1,0 +1,1253 @@
+:root{
+    --rojote:#61060a;
+    --blanco : #ffffff;
+    --gris : #242d2b;
+    --negro:#000;
+    --xbox :#0e7a0d;
+    --play:#193285;
+    --rojo:#e60012;
+    --steam:#007ead;
+    --verde: #295529;
+}
+
+
+*{
+    padding: 0rem;
+    margin: 0rem;
+    font-family: "Momo Trust Display", sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    color: var(--blanco);
+}
+.textos{
+    font-family: 'DOOM 2016 Left', sans-serif;
+    letter-spacing: 0.8rem;
+    text-shadow:
+        -0.3rem 0 var(--negro),
+        0.3rem 0 var(--negro),
+        0 -0.3rem var(--negro),
+        0 0.3rem var(--negro);
+}
+.textos2{
+    font-size: 7rem;
+    margin-left: 2rem;
+    padding-top: 4rem;
+}
+
+.material-symbols-outlined {
+  font-size: 10rem;  
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+}
+
+.img{
+    width: 30rem;
+    height: 30rem;
+}
+
+.img2{
+    width: 45rem;
+    height: 60rem;
+    padding-top: 0rem;
+    box-sizing: border-box;
+    background-color: var(--gris);
+    padding: 2rem;
+    transition: transform 0.4s ease;
+}
+
+.img3{
+    width: 60rem;
+    height: 50rem;
+    padding-top: 0rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    transition: transform 0.4s ease;
+}
+
+.block{
+    display: flex;
+    justify-content: space-around;
+}
+.acerca{
+    width: 100%;
+    height: 90rem;
+    background-image: url(../img/mlr0tbmp6yu51.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: var(--negro); 
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+header div{
+    width: 100%;
+    height: 78.7rem;
+    background-image: url(../img/titulo\ dark\ ages.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header div > h1{
+    position: absolute;
+    bottom: 0rem;
+    left: 2rem;
+    font-size: 20rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--gris);
+    border-top: 0.2rem solid var(--rojo);
+    border-bottom:0.2rem solid var(--rojo);
+}
+
+nav a{
+    margin-top: 5.4rem;
+    margin-bottom: 5.4rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+
+main{
+    background: linear-gradient(to bottom,var(--gris),#331713,#441509,#cf2c1a);
+}
+
+.parrafo{
+    padding-bottom: 5rem;
+    width: 80rem;
+    margin-left: 2rem;
+}
+
+.historia{
+    width: 100%;
+    height: 100rem;
+    background-image: url(../img/dark\ ages\ fondo.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.arte{
+    width: 100%;
+    height: 90rem;
+    background-image: url(../img/premios.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.compra{
+    width: 100%;
+    height: 70rem;
+    background-image: url(../img/infierno.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15rem;
+    
+}
+
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.pictures{
+    text-decoration: none;
+}
+
+.cajabotones{
+    width: 20rem;
+    height: 6.2rem;
+    display: flex;
+    justify-content: start;
+}
+
+.cajacompra{
+    width: 40rem;
+    height: 60rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    background-color: var(--negro);
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.parrafobotones{
+    font-size: 2rem;
+    font-family: Orbitron, Open Sans, Noto Sans Japanese, Trade Gothic Bold Condensed No20, sans-serif;
+    padding-top:1.7rem ;
+    text-align: start;
+    
+}
+
+#linksnav :hover{
+    color: var(--rojo);
+}
+#linksnav :focus{
+    background-color: var(--rojote);
+    color: var(--blanco);
+}
+
+.boton{
+    width: 9rem;
+    height: 4rem;
+    padding-top: 1rem ;
+}
+
+.xbox{
+    background-color:var(--xbox) ;
+    font-size: 0.5rem;
+}
+#xbox :hover{
+    background-color: #0b5a0a;
+}
+
+.play{
+    background-color: var(--play);
+    font-size: 0.5rem;
+}
+
+#play :hover{
+    background-color: #102052;
+}
+
+.steam{
+    background-color: var(--steam);
+    font-size: 0.5rem;
+}
+
+#steam :hover{
+    background-color: #033344;
+}
+.cajacompra a{
+    text-decoration: none;
+}
+
+.footer1{
+    width: 100%;
+    height: 15rem;
+    background-color: var(--negro);
+    font-size: 2rem;
+    font-family: Orbitron, Open Sans, Noto Sans Japanese, Trade Gothic Bold Condensed No20, sans-serif;
+    padding-top:1.7rem ;
+    text-align: start;
+}
+#parrafohistoria{
+    background-color: #960c0c9a;
+    border: 0.3rem solid var(--rojo);
+}
+
+@media (max-width: 1024px) {
+    .textos{
+        font-family: 'DOOM 2016 Left', sans-serif;
+        letter-spacing: 0.8rem;
+        text-shadow:
+            -0.3rem 0 var(--negro),
+            0.3rem 0 var(--negro),
+            0 -0.3rem var(--negro),
+            0 0.3rem var(--negro);
+    }
+    .textos2{
+        font-size: 8rem;
+        margin-left: 2rem;
+        padding-top: 6rem;
+    }
+
+    .material-symbols-outlined {
+        font-size: 8rem;  
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 40
+      }
+    .img{
+        width: 30rem;
+        height: 30rem;
+    }
+    
+    .img2{
+        width: 45rem;
+        height: 60rem;
+        padding-top: 0rem;
+        box-sizing: border-box;
+        background-color: var(--gris);
+        padding: 2rem;
+    }
+    
+    .img3{
+        width: 50rem;
+        height: 40rem;
+        padding-top: 0rem;
+        box-sizing: border-box;
+        padding: 2rem;
+    }
+    
+    .block{
+        display: flex;
+        justify-content: space-around;
+    }
+    #logos{
+        display: flex;
+        flex-direction: column;
+    }
+    .acerca{
+        width: 100%;
+        height: 90rem;
+        background-image: url(../img/mlr0tbmp6yu51.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: var(--negro); 
+    }
+    
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-size: 16px;
+    }
+    header div{
+        width: 100%;
+        height: 78.7rem;
+        background-image: url(../img/titulo\ dark\ ages.webp);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    header div > h1{
+        position: absolute;
+        bottom: 0rem;
+        left: 2rem;
+        font-size: 20rem;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--gris);
+        border-top: 0.2rem solid var(--rojo);
+        border-bottom:0.2rem solid var(--rojo);
+    }
+    nav a{
+        margin-top: 5.4rem;
+        margin-bottom: 5.4rem;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    
+    
+    main{
+        background: linear-gradient(to bottom,var(--gris),#331713,#441509,#cf2c1a);
+    }
+    
+    .parrafo{
+        padding-bottom: 5rem;
+        width: 80rem;
+        margin-left: 2rem;
+    }
+    
+    .historia{
+        width: 100%;
+        height: 100rem;
+        background-image: url(../img/dark\ ages\ fondo.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 5rem;
+    }
+    
+    .arte{
+        width: 100%;
+        height: 100rem;
+        background-image: url(../img/premios.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        justify-content: space-around;
+        padding-bottom: 40rem;
+    }
+    
+    .compra{
+        width: 100%;
+        height: 70rem;
+        background-image: url(../img/infierno.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 30rem;
+        
+    }
+    
+    .pictures{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+    
+    .pictures a{
+        text-decoration: none;
+    }
+    
+    .cajabotones{
+        width: 20rem;
+        height: 6.2rem;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .cajacompra{
+        width: 40rem;
+        height: 60rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    
+        background-color: var(--negro);
+        align-items: center;
+        box-sizing: border-box;
+    }
+    
+    .parrafobotones{
+        font-size: 2rem;
+        font-family: Orbitron, Open Sans, Noto Sans Japanese, Trade Gothic Bold Condensed No20, sans-serif;
+        padding-top:1.7rem ;
+        text-align: center;
+        
+    }
+    
+    .boton{
+        width: 9rem;
+        height: 4rem;
+        padding-top: 1rem ;
+    }
+    
+    .xbox{
+        background-color:var(--xbox) ;
+        font-size: 0.5rem;
+    }
+    #xbox :hover{
+        background-color: #0b5a0a;
+    }
+    
+    .play{
+        background-color: var(--play);
+        font-size: 0.5rem;
+    }
+    
+    #play :hover{
+        background-color: #102052;
+    }
+    
+    .steam{
+        background-color: var(--steam);
+        font-size: 0.5rem;
+    }
+    
+    #steam :hover{
+        background-color: #033344;
+    }
+    .cajacompra a{
+        text-decoration: none;
+    }
+    .meta{
+        display: flex;
+        justify-content: center;
+        width: 4rem;
+        background-color: rgb(24, 126, 54);
+        text-decoration: none;
+        
+    }
+    
+    footer{
+        width: 100%;
+        height: 15rem;
+        background-color: var(--negro);
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    .textos{
+        font-family: 'DOOM 2016 Left', sans-serif;
+        letter-spacing: 0.8rem;
+        text-shadow:
+            -0.3rem 0 var(--negro),
+            0.3rem 0 var(--negro),
+            0 -0.3rem var(--negro),
+            0 0.3rem var(--negro);
+    }
+    .textos2{
+        font-size: 7rem;
+        margin-left: 2rem;
+        padding-top: 4rem;
+    }
+    .material-symbols-outlined {
+        font-size: 5rem;  
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 40
+    }
+    .img{
+        width: 30rem;
+        height: 30rem;
+    }
+    
+    .img2{
+        width: 35rem;
+        height: 50rem;
+        box-sizing: border-box;
+        background-color: var(--gris);
+        padding: 2rem;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+    }
+    
+    .img3{
+        width: 50rem;
+        height: 40rem;
+        padding-top: 0rem;
+        box-sizing: border-box;
+        padding: 2rem;
+    }
+    
+    .block{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    #logos{
+        display: flex;
+        flex-direction: column;
+    }
+    .acerca{
+        width: 100%;
+        height: 70rem;
+        background-image: url(../img/mlr0tbmp6yu51.jpg);
+        background-size: cover;
+        background-position: center;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: var(--negro); 
+    }
+    
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-size: 16px;
+    }
+    header div{
+        width: 100%;
+        height: 78.7rem;
+        background-image: url(../img/titulo\ dark\ ages.webp);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    header div > h1{
+        position: absolute;
+        bottom: 0rem;
+        left: 2rem;
+        font-size: 20rem;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--gris);
+        border-top: 0.2rem solid var(--rojo);
+        border-bottom:0.2rem solid var(--rojo);
+    }
+    nav a{
+        margin-top: 5.4rem;
+        margin-bottom: 5.4rem;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    
+    
+    main{
+        background: linear-gradient(to bottom,var(--gris),#331713,#441509,#cf2c1a);
+    }
+    
+    .parrafo{
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 5rem;
+        width: 60rem;
+        margin-left: 8rem;
+    }
+    
+    .historia{
+        width: 100%;
+        height: 100rem;
+        background-image: url(../img/dark\ ages\ fondo.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    
+    .arte{
+        width: 100%;
+        height: 100rem;
+        background-image: url(../img/premios.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        justify-content: space-around;
+        padding-bottom: 40rem;
+    }
+    
+    .compra{
+        width: 100%;
+        height: 100rem;
+        background-image: url(../img/infierno.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20rem;
+        padding-bottom: 20rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .pictures{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+    
+    .pictures a{
+        text-decoration: none;
+    }
+    
+    .cajabotones{
+        width: 20rem;
+        height: 6.2rem;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .cajacompra{
+        width: 50rem;
+        height: 70rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    
+        background-color: var(--negro);
+        align-items: center;
+        box-sizing: border-box;
+    }
+    
+    .parrafobotones{
+        font-size: 2rem;
+        font-family: Orbitron, Open Sans, Noto Sans Japanese, Trade Gothic Bold Condensed No20, sans-serif;
+        padding-top:1.7rem ;
+        text-align: center;
+        
+    }
+    
+    .boton{
+        width: 9rem;
+        height: 4rem;
+        padding-top: 1rem ;
+    }
+    
+    .xbox{
+        background-color:var(--xbox) ;
+        font-size: 0.5rem;
+    }
+    #xbox :hover{
+        background-color: #0b5a0a;
+    }
+    
+    .play{
+        background-color: var(--play);
+        font-size: 0.5rem;
+    }
+    
+    #play :hover{
+        background-color: #102052;
+    }
+    
+    .steam{
+        background-color: var(--steam);
+        font-size: 0.5rem;
+    }
+    
+    #steam :hover{
+        background-color: #033344;
+    }
+    .cajacompra a{
+        text-decoration: none;
+    }
+    .meta{
+        display: flex;
+        justify-content: center;
+        width: 4rem;
+        background-color: rgb(24, 126, 54);
+        text-decoration: none;
+        
+    }
+    
+    footer{
+        width: 100%;
+        height: 15rem;
+        background-color: var(--negro);
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px){
+    .textos{
+        font-family: 'DOOM 2016 Left', sans-serif;
+        letter-spacing: 0.8rem;
+        text-shadow:
+            -0.3rem 0 var(--negro),
+            0.3rem 0 var(--negro),
+            0 -0.3rem var(--negro),
+            0 0.3rem var(--negro);
+        font-size: 10rem;
+        text-align: center;
+    }
+    .textos2{
+        font-size: 5rem;
+        margin-left: 1rem;
+        padding-top: 4rem;
+    }
+    .img{
+        width: 30rem;
+        height: 30rem;
+    }
+    
+    .img2{
+        width: 30rem;
+        height: 45rem;
+        box-sizing: border-box;
+        background-color: var(--gris);
+        padding: 2rem;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+    }
+    
+    .img3{
+        width: 40rem;
+        height: 40rem;
+        padding-top: 0rem;
+        box-sizing: border-box;
+        padding: 2rem;
+    }
+    
+    .block{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    #logos{
+        display: flex;
+        flex-direction: column;
+    }
+    .acerca{
+        width: 100%;
+        height: 120rem;
+        background-image: url(../img/mlr0tbmp6yu51.jpg);
+        background-size: cover;
+        background-position: center;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: var(--negro); 
+    }
+   
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-size: 16px;
+    }
+    header div{
+        width: 100%;
+        height: 60rem;
+        background-image: url(../img/titulo\ dark\ ages.webp);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    header div > h1{
+        position: absolute;
+        bottom: 0rem;
+        left: 2rem;
+        font-size: 20rem;
+    }
+    
+    nav{
+        justify-content: space-around;
+        background-color: var(--gris);
+        border-top: 0.2rem solid var(--rojo);
+        border-bottom:0.2rem solid var(--rojo);
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    nav a{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        padding: 1rem;
+        background-color: rgba(165, 42, 42, 0.519);
+    }
+    
+    
+    main{
+        background: linear-gradient(to bottom,var(--gris),#331713,#441509,#cf2c1a);
+    }
+    
+    .parrafo{
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 5rem;
+        width: 27rem;
+        margin-left: 8rem;
+    }
+    
+    .historia{
+        width: 100%;
+        height: 150rem;
+        background-image: url(../img/dark\ ages\ fondo.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    
+    .arte{
+        width: 100%;
+        height: 100rem;
+        background-image: url(../img/premios.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        justify-content: space-around;
+        padding-bottom: 40rem;
+    }
+    
+    .compra{
+        width: 100%;
+        height: 90rem;
+        background-image: url(../img/infierno.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20rem;
+        padding-bottom: 20rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .pictures{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+    
+    .pictures a{
+        text-decoration: none;
+    }
+    
+    .cajabotones{
+        width: 20rem;
+        height: 6.2rem;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .cajacompra{
+        width: 40rem;
+        height: 70rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    
+        background-color: var(--negro);
+        align-items: center;
+        box-sizing: border-box;
+    }
+    
+    .parrafobotones{
+        font-size: 2rem;
+        font-family: Orbitron, Open Sans, Noto Sans Japanese, Trade Gothic Bold Condensed No20, sans-serif;
+        padding-top:1.7rem;
+        padding-bottom: 1.7rem;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    .boton{
+        width: 9rem;
+        height: 4rem;
+        padding-top: 1rem ;
+    }
+    
+    .xbox{
+        background-color:var(--xbox) ;
+        font-size: 0.5rem;
+    }
+    #xbox :hover{
+        background-color: #0b5a0a;
+    }
+    
+    .play{
+        background-color: var(--play);
+        font-size: 0.5rem;
+    }
+    
+    #play :hover{
+        background-color: #102052;
+    }
+    
+    .steam{
+        background-color: var(--steam);
+        font-size: 0.5rem;
+    }
+    
+    #steam :hover{
+        background-color: #033344;
+    }
+    .cajacompra a{
+        text-decoration: none;
+    }
+    .meta{
+        display: flex;
+        justify-content: center;
+        width: 4rem;
+        background-color: rgb(24, 126, 54);
+        text-decoration: none;
+        
+    }
+    
+    .footer1{
+        width: 100%;
+        height: 15rem;
+        background-color: var(--negro);
+        font-size: 1.5rem;
+        font-family: Orbitron, Open Sans, Noto Sans Japanese, Trade Gothic Bold Condensed No20, sans-serif;
+        padding-top:1.7rem ;
+        text-align: center;
+        justify-content: space-around;
+        flex-direction: column;
+        color: var(--rojote);
+    }
+
+}
+
+@media (max-width: 375px){
+    .textos{
+        font-family: 'DOOM 2016 Left', sans-serif;
+        letter-spacing: 0.8rem;
+        text-shadow:
+            -0.3rem 0 var(--negro),
+            0.3rem 0 var(--negro),
+            0 -0.3rem var(--negro),
+            0 0.3rem var(--negro);
+        font-size: 10rem;
+        text-align: center;
+    }
+    .textos2{
+        font-size: 5rem;
+        margin-left: 1rem;
+        padding-top: 4rem;
+    }
+    .img{
+        width: 30rem;
+        height: 30rem;
+    }
+    
+    .img2{
+        width: 30rem;
+        height: 45rem;
+        box-sizing: border-box;
+        background-color: var(--gris);
+        padding: 2rem;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+    }
+    
+    .img3{
+        width: 40rem;
+        height: 40rem;
+        padding-top: 0rem;
+        box-sizing: border-box;
+        padding: 2rem;
+    }
+    
+    .block{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    #logos{
+        display: flex;
+        flex-direction: column;
+    }
+    .acerca{
+        width: 100%;
+        height: 120rem;
+        background-image: url(../img/mlr0tbmp6yu51.jpg);
+        background-size: cover;
+        background-position: center;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: var(--negro); 
+    }
+    
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-size: 16px;
+    }
+    header div{
+        width: 100%;
+        height: 60rem;
+        background-image: url(../img/titulo\ dark\ ages.webp);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    header div > h1{
+        position: absolute;
+        bottom: 0rem;
+        left: 2rem;
+        font-size: 20rem;
+    }
+    
+    nav{
+        justify-content: space-around;
+        background-color: var(--gris);
+        border-top: 0.2rem solid var(--rojo);
+        border-bottom:0.2rem solid var(--rojo);
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    nav a{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    
+    
+    main{
+        background: linear-gradient(to bottom,var(--gris),#331713,#441509,#cf2c1a);
+    }
+    
+    .parrafo{
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 5rem;
+        width: 27rem;
+        margin-left: 5rem;
+    }
+    
+    .historia{
+        width: 100%;
+        height: 150rem;
+        background-image: url(../img/dark\ ages\ fondo.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    
+    .arte{
+        width: 100%;
+        height: 100rem;
+        background-image: url(../img/premios.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        justify-content: space-around;
+        padding-bottom: 40rem;
+    }
+    
+    .compra{
+        width: 100%;
+        height: 90rem;
+        background-image: url(../img/infierno.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20rem;
+        padding-bottom: 20rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .pictures{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+    
+    .pictures a{
+        text-decoration: none;
+    }
+    
+    .cajabotones{
+        width: 20rem;
+        height: 6.2rem;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .cajacompra{
+        width: 40rem;
+        height: 70rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    
+        background-color: var(--negro);
+        align-items: center;
+        box-sizing: border-box;
+    }
+    
+    .parrafobotones{
+        font-size: 2rem;
+        font-family: Orbitron, Open Sans, Noto Sans Japanese, Trade Gothic Bold Condensed No20, sans-serif;
+        padding-top:1.7rem;
+        padding-bottom: 1.7rem;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    .boton{
+        width: 9rem;
+        height: 4rem;
+        padding-top: 1rem ;
+    }
+    
+    .xbox{
+        background-color:var(--xbox) ;
+        font-size: 0.5rem;
+    }
+    #xbox :hover{
+        background-color: #0b5a0a;
+    }
+    
+    .play{
+        background-color: var(--play);
+        font-size: 0.5rem;
+    }
+    
+    #play :hover{
+        background-color: #102052;
+    }
+    
+    .steam{
+        background-color: var(--steam);
+        font-size: 0.5rem;
+    }
+    
+    #steam :hover{
+        background-color: #033344;
+    }
+    .cajacompra a{
+        text-decoration: none;
+    }
+    .meta{
+        display: flex;
+        justify-content: center;
+        width: 4rem;
+        background-color: rgb(24, 126, 54);
+        text-decoration: none;
+        
+    }
+    
+    .footer1{
+        width: 100%;
+        height: 15rem;
+        background-color: var(--negro);
+        font-size: 1.5rem;
+        font-family: Orbitron, Open Sans, Noto Sans Japanese, Trade Gothic Bold Condensed No20, sans-serif;
+        padding-top:1.7rem ;
+        text-align: center;
+        justify-content: space-around;
+        flex-direction: column;
+        color: var(--rojote);
+    }
+
+
+}
