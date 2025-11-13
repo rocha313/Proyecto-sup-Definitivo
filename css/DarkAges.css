@@ -130,7 +130,7 @@ main{
 .parrafo{
     padding-bottom: 5rem;
     width: 80rem;
-    margin-left: 2rem;
+    margin: 0 auto;
 }
 
 .historia{
@@ -372,7 +372,6 @@ main{
     .parrafo{
         padding-bottom: 5rem;
         width: 80rem;
-        margin-left: 2rem;
     }
     
     .historia{
@@ -619,7 +618,6 @@ main{
         text-align: center;
         padding-bottom: 5rem;
         width: 60rem;
-        margin-left: 8rem;
     }
     
     .historia{
@@ -863,7 +861,6 @@ main{
         text-align: center;
         padding-bottom: 5rem;
         width: 27rem;
-        margin-left: 8rem;
     }
     
     .historia{
@@ -1114,7 +1111,6 @@ main{
         text-align: center;
         padding-bottom: 5rem;
         width: 27rem;
-        margin-left: 5rem;
     }
     
     .historia{
@@ -1363,7 +1359,6 @@ main{
         text-align: center;
         padding-bottom: 5rem;
         width: 27rem;
-        margin: 0rem;
     }
     
     .historia{
@@ -1499,4 +1494,5 @@ main{
     }
 
 }
+
 
