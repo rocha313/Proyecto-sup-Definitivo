@@ -133,6 +133,7 @@ nav a:focus {
     padding-bottom: 30rem;
     width: 80rem;
     margin-left: 2rem;
+    text-align: justify;
 }
 
 .historia{
@@ -294,7 +295,7 @@ div > span{
 
 #phistoria{
     height: 78rem;
-    text-align: center;
+    text-align: justify;
 }
 .meta{
     display: flex;
@@ -468,14 +469,15 @@ footer{
     .acerca{
         height: 120rem;
     }
-    .historia{
-        height: 180rem;
+    .acerca{
+        height: 130rem;
     }
     .parrafo{
-        text-align:start;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
     }
-    #phistoria{
-        text-align:end;
+    .historia{
+        height: 180rem;
     }
     #icono{
         width: 2rem;
@@ -565,7 +567,6 @@ footer{
 
 
 }
-
 
 
 
