@@ -312,7 +312,9 @@ footer{
     background-color: #ff00004d;
     border: 0.3rem solid red;
 }
-
+#icono{
+    width:5rem
+}
 @media (max-width: 1024px) {
     header div h1{
         left: 9rem;
@@ -538,6 +540,7 @@ footer{
 
 
 }
+
 
 
 
