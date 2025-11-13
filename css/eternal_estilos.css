@@ -89,7 +89,10 @@ html, body {
 .cajacompra > p{
     text-align: center;
 } 
-
+.cajas{
+    display: flex;
+    flex-direction: row;
+}
 header > div{
     width: 100%;
     height: 78.7rem;
@@ -313,7 +316,13 @@ footer{
     border: 0.3rem solid red;
 }
 #icono{
-    width:5rem
+    width:5rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+}
+#cajas{
+    display: flex;
+    flex-direction: row;
 }
 @media (max-width: 1024px) {
     header div h1{
@@ -349,6 +358,11 @@ footer{
     .menu{
         width: 90rem;
         height: 25rem;
+    }
+    #icono{
+        width: 3rem;
+        height: 2rem;
+        margin-top: 1rem;
     }
 }
 @media (max-width: 768px){
@@ -406,6 +420,11 @@ footer{
     .menu li a{
         text-align: center;
     }
+    #icono{
+        width: 2.5rem;
+        height: 1.7rem;
+        margin-top: 1rem;
+    }
 }
 @media (max-width:767px){
     .parrafo{
@@ -419,6 +438,7 @@ footer{
     .historia{
         height: 110rem;
     }
+    
 }
 @media (max-width:425px){
     header >div{
@@ -456,6 +476,11 @@ footer{
     }
     #phistoria{
         text-align:start;
+    }
+    #icono{
+        width: 2rem;
+        height: 1.5rem;
+        margin-top: 1.3rem;
     }
 }
 @media (max-width: 320px){
