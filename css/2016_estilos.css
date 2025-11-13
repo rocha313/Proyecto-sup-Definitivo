@@ -310,7 +310,7 @@ main{
     footer p{ /*Selector descendiente*/
     background: #0f0f11;
     color: #b32414;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     }
     .barra{
         flex-direction: column;
@@ -380,4 +380,5 @@ main{
         height: 40rem;
         padding-bottom: 10rem;
     }
+
 }
