@@ -447,6 +447,12 @@ footer{
     .historia{
         height: 180rem;
     }
+    .parrafo{
+        text-align:start;
+    }
+    #phistoria{
+        text-align:start;
+    }
 }
 @media (max-width: 320px){
     header div{
@@ -530,4 +536,5 @@ footer{
 
 
 }
+
 
