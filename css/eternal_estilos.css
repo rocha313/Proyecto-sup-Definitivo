@@ -475,7 +475,7 @@ footer{
         text-align:start;
     }
     #phistoria{
-        text-align:start;
+        text-align:end;
     }
     #icono{
         width: 2rem;
@@ -565,6 +565,7 @@ footer{
 
 
 }
+
 
 
 
