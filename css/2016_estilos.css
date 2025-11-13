@@ -100,6 +100,10 @@ main{
         'opsz' 24;
     font-family: 'Material Symbols Outlined';
 }
+.cora{
+    float: right;
+    padding-right: 2rem;
+}
 @keyframes aparece {
     from {
         opacity: 0;
@@ -228,6 +232,9 @@ main{
         font-size: 15rem;
         letter-spacing: 1rem;
     }
+    .cora{
+        fill: #ffff00;
+    }
     .barra{
         flex-direction: column;
     }
@@ -306,6 +313,10 @@ main{
     header>div>h1{ /*Selector Padre a hijo*/
         font-size: 10rem;
         letter-spacing: 0.7rem;
+        padding-bottom: 2rem;
+    }
+    .cora{
+        fill: #00ffff;
     }
     footer p{ /*Selector descendiente*/
     background: #0f0f11;
@@ -380,5 +391,4 @@ main{
         height: 40rem;
         padding-bottom: 10rem;
     }
-
 }
