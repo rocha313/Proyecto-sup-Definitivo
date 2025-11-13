@@ -130,7 +130,7 @@ main{
 .parrafo{
     padding-bottom: 5rem;
     width: 80rem;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .historia{
@@ -1494,5 +1494,6 @@ main{
     }
 
 }
+
 
 
